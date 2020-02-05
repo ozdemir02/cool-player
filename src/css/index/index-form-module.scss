@@ -1,0 +1,60 @@
+.login__title {
+    color: white;
+    font-size: 36px;
+    font-weight: bold;
+    padding: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-bottom: 3px solid white;
+    color: white;
+    background-color: transparent;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    font-size: 15px;
+    font-family: "poppins", sans-serif;
+    outline: none;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
+  
+.username__title {
+    font-weight: bold;
+}
+
+.password__title {
+    font-weight: bold;
+}
+
+
+input[type=submit] {
+    background-color: transparent;
+    color: white;
+    border: 3px solid white;
+    border-radius: 50px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: "poppins", sans-serif;
+    font-weight: bold;
+}
+
+.container {
+    color: white;
+    font-family: "poppins", sans-serif;
+    padding: 20px;
+}

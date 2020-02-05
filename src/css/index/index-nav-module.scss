@@ -1,0 +1,26 @@
+.navigation {
+    display: flex;
+    height: 20px;
+    margin-top: 20px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    z-index: 40;
+}
+
+.navigation__arrow {
+    margin-right: 23px;
+    color: white;
+    margin-left: 23px;
+    height: 10px;
+}
+
+.navigation__title {
+    margin: 0 auto;
+    padding: 0;
+    display: inline-block;
+    color: white;
+    font-weight: 300;
+    letter-spacing: 5px;
+}
